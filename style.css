@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+body{
+  font-family: 'Merriweather', serif; /*Importation de Police*/
+}
+header{
+  text-align: center;
+  background-color: #C7C7C7;
+  padding: 10px;
+  /*border: solid black 3px;*/
+}
+.deb{ /*Bloc début de formation*/
+  text-align: center;
+  background-color: #C7C7C7;
+  /*border: solid black 3px;*/              /*Border aide pour se situer dans le css*/
+  width: 20%;
+  height: 20%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.countdown{
+  display: flex;
+  justify-content: space-between;
+  /*border: solid black 3px;*/
+  font-size: 150%;
+  padding: 30px;
+  max-width: 100%;
+  color: white;
+  text-align: center;
+}
+.countdown2{
+  display: flex;
+  justify-content: space-between;
+  /*border: solid black 3px;*/
+  font-size: 100%;
+  padding: 30px;
+  max-width: 100%;
+}
+.c2{
+  text-align: center;
+  height: 10px;
+  width: 100px;
+  margin: 5px 5px;
+  background-color: black;
+  padding: 0.5%;
+  color: white; 
+}
+.timer_day{  /*Cercle*/
+  line-height: 115px;
+  height: 115px; 
+  width: 115px; 
+  background-color: black;
+  border-radius: 50%;
+}
+.timer_hour{ /*Cercle*/
+  line-height: 115px;
+  height: 115px; 
+  width: 115px; 
+  background-color: black;
+  border-radius: 50%;
+}
+.timer_min{ /*Cercle*/
+  line-height: 115px;
+  height: 115px; 
+  width: 115px; 
+  background-color: black;
+  border-radius: 50%;
+}
+.timer_sec{ /*Cercle*/
+  line-height: 115px;
+  height: 115px; 
+  width: 115px; 
+  background-color: black;
+  border-radius: 50%;
+}
+
+.fin{ /*Bloc fin de formation*/
+  text-align: center;
+  background-color: #C7C7C7;
+  /*border: solid black 3px;*/
+  margin-right: auto;
+  margin-left: auto;
+  width: 20%;
+  height: 20%;
+}
+footer{
+  text-align: center;
+  position: absolute;
+  /*border: solid black 3px;*/
+  width: 98.4%;
+  height: 14.2%;
+  max-width: 100%;
+  background-color: #C7C7C7;
+  padding: 7px;
+  bottom: 0;
+}
+img{
+  float: right;
+  width: 100px;
+  height: 90px;
+}
+
+
+@media all and (max-device-width: 480px) /*Smartphone*/
+{
+header{
+  text-align: center;
+  background-color: #C7C7C7;
+  padding: 3px;
+  /*border: solid black 3px;*/
+}
+.deb{
+  width: 40%
+  height: 40%;
+  font-size: 80%;
+}
+.timer_day{
+  height: 100px; 
+  width: 100px; 
+  line-height: 100px;
+}
+.timer_hour{
+  height: 100px; 
+  width: 100px; 
+  line-height: 100px;
+}
+.timer_min{
+  height: 100px; 
+  width: 100px; 
+  line-height: 100px;
+}
+.timer_sec{
+  height: 100px; 
+  width: 100px; 
+  line-height: 100px;
+}
+.c2{
+  text-align: center;
+  height: 10px;
+  width: 100px;
+  margin: 5px 5px;
+  background-color: black;
+  padding: 2%;
+  color: white; 
+}
+.fin{
+  width: 40%
+  height: 40%;
+  font-size: 80%;
+}
+footer{
+  max-width: 100%;
+  width: 98.4%;
+  height: 14.2%;
+  position: absolute;
+  border: 0;
+}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) /*Tablette*/
+{
+header{
+  text-align: center;
+  background-color: #C7C7C7;
+  padding: 3px;
+  /*border: solid black 3px;*/
+}
+.deb{
+  width: 40%
+  height: 40%;
+  font-size: 80%;
+}
+.timer_day{
+  height: 110px; 
+  width: 110px; 
+  line-height: 110px;
+}
+.timer_hour{
+  height: 110px; 
+  width: 110px; 
+  line-height: 110px;
+}
+.timer_min{
+  height: 110px; 
+  width: 110px; 
+  line-height: 110px;
+}
+.timer_sec{
+  height: 110px; 
+  width: 110px; 
+  line-height: 110px;
+}
+.c2{
+  text-align: center;
+  height: 10px;
+  width: 100px;
+  margin: 5px 5px;
+  background-color: black;
+  padding: 2%;
+  color: white; 
+}
+.fin{
+  width: 40%
+  height: 40%;
+  font-size: 80%;
+}
+footer{
+  max-width: 100%;
+  width: 98.4%;
+  height: 14.2%;
+  position: absolute;
+  bottom: 0;
+}
+}
